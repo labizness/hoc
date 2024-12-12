@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contactus.css">
+    <script src="script.js" defer></script>
+    <title>Contact Us &ndash; Haus of Collision</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <header>
+        <!-- Navbar -->
+        <nav class="navbar">
+            <img src="images/logo.jpg" alt="Logo" class="logo-img">
+            <h1 class="haus-title">Haus Of Collision</h1> <!-- Centered Title -->
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contactus.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+</head>
+<body>
+    <!-- Intro Section -->
+    <section class="intro">
+        <h1>All Insurances Are Accepted!</h1>
+        <h2>
+            <ul style="list-style: none;">
+                <li>I-CAR Platinum Certified</li>
+                <li>24/7 Free Towing</li>
+                <li>Free Estimates</li>
+                <li>Claim Assistance</li>
+                <li>Providing Body Repair, Paint, Mechanical Services</li>
+            </ul>
+        </h2>
+        
+        <div class="contact-details">
+            <p><strong>Phone:</strong> <a href="tel:7473334144">(747) 333-4144</a></p>
+            <p><strong>Address:</strong> 8000 Wheatland Ave STE K, Sun Valley, CA 91352</p>
+            <p><strong>Business Hours:</strong></p>
+            <ul>
+                <li>Monday: 8 AM – 5 PM</li>
+                <li>Tuesday: 8 AM – 5 PM</li>
+                <li>Wednesday: 8 AM – 5 PM</li>
+                <li>Thursday: 8 AM – 5 PM</li>
+                <li>Friday: 8 AM – 5 PM</li>
+                <li>Saturday: 8 AM – 2 PM</li>
+                <li>Sunday: Closed</li>
+            </ul>
+        </div>
+        
+        <p>You can also contact us through Instagram!</p>
+        <div class="instagram-link">
+            <a href="https://www.instagram.com/hausofcollision" target="_blank">
+                <span>@hausofcollision</span>
+            </a>
+        </div>
+<br><br>
+        <!-- Contact Form Section -->
+        <div class="form-container">
+            <h2>Send Us a Message</h2>
+            <p>If you have questions or would prefer to contact us here:</p>
+            <form action="https://formspree.io/f/mldekpzj" method="POST" class="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Your Email" required>
+                
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone" placeholder="Your Phone Number">
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+                
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <!-- Google Map -->
+            <div class="map">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3299.246031612063!2d-118.3635268237899!3d34.21673580902607!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2956b0f10627b%3A0x593b594d026dabe3!2sHaus%20Of%20Collision!5e0!3m2!1sen!2sus!4v1733981738766!5m2!1sen!2sus" 
+                    width="100%" 
+                    height="250" 
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+
+            <!-- Contact Info -->
+            <div class="contact-info">
+                <p>
+                    <img src="images/telephone.png" alt="Phone Icon" class="icon">
+                    <a href="tel:7473334144">747-333-4144</a>
+                </p>
+                <p>
+                    <img src="images/instagramfooter.png" alt="Instagram Icon" class="icon">
+                    <a href="https://instagram.com/hausofcollision" target="_blank">hausofcollision</a>
+                </p>
+                <p>
+                    <img src="images/car-service.png" alt="Location Icon" class="icon">
+                    8000 Wheatland Ave STE K, Sun Valley, CA 91352
+                </p>
+            </div>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="quick-links">
+            <a href="index.html">Home</a>
+            <a href="services.html">Services</a>
+            <a href="contactus.html">Contact Us</a>
+        </div>
+    </footer>
+</body>
+</html>
