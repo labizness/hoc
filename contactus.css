@@ -160,7 +160,6 @@ body {
 }
 
 /* Contact Form Section */
-/* Contact Form Section */
 .contact-form-section {
     background-color: #fff; /* Same background color as .intro */
     padding: 4rem 2rem;
@@ -170,8 +169,6 @@ body {
     max-width: 800px;
     text-align: center;
 }
-
-/* Ensure text in the section matches .intro styles */
 
 /* Intro Section */
 .intro {
